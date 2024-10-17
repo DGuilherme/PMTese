@@ -1,35 +1,39 @@
-# Node modules for React
+# Node.js related (React)
 node_modules/
 build/
 
-# Python virtual environments
+# Do not ignore the frontend directory
+!rul-predictor/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python related (FastAPI)
 venv/
 env/
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
-# FastAPI related
-*.log
 *.sqlite3
 *.db
-*.pth
-instance/
+*.log
 
-# Model files (you can specify other model formats if necessary)
+# Model files (PyTorch or Keras)
 model.pth
 full_model.pth
 my_model.h5
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Environment variables and secrets
+# Local environment variables
 .env
 *.env
 
-# IDE-specific files
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific directories
 .vscode/
 .idea/
+
+#
