@@ -3,7 +3,7 @@ node_modules/
 build/
 
 # Do not ignore the frontend directory
-!rul-predictor/
+#!rul-predictor/
 
 # Log files
 npm-debug.log*
@@ -35,5 +35,25 @@ Thumbs.db
 # IDE-specific directories
 .vscode/
 .idea/
+
+# Lint and testing files
+coverage/
+*.cover
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg-info/
+
+# Python-specific package files
+*.egg
+*.whl
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+*.pyc
+*.pyo
 
 #

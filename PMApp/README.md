@@ -88,7 +88,7 @@ You need to run three separate processes for the application to work:
    - Navigate to the model-api folder and activate the virtual environment:
      ```bash
      cd model-api
-     source venv/bin/activate  # or venv\Scripts\activate for Windows
+     venv/bin/activate  # or venv\Scripts\activate for Windows
      ```
    - Start the server:
      ```bash
@@ -99,7 +99,7 @@ You need to run three separate processes for the application to work:
    - Navigate to the backend folder and activate the virtual environment:
      ```bash
      cd ../backend
-     source venv/bin/activate  # or venv\Scripts\activate for Windows
+     venv/bin/activate  # or venv\Scripts\activate for Windows
      ```
    - Start the server:
      ```bash
