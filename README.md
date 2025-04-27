@@ -12,3 +12,7 @@ This repo contains all code implementations even the ones that are not a final v
 |  [20250426CNNT_Final.ipynb](notebooks\Transformer\Convolutional\20250426CNNT_Final.ipynb)             |     Latest implementation of the CNN transformer        |
 |  [TransformerTSKeras.ipynb](notebooks\Transformer\Simple\TransformerTSKeras.ipynb)             |     Notebook for Timeseries transformer implementation         |
 
+# Notes
+Main inspirations for these implementations
+[LSTM model ](https://www.kaggle.com/code/yash4654/predictive-maintenance-nasa-turbofan-engine#Model-4---%3E-LSTM)
+[Transformer](https://github.com/mounalab/Multivariate-time-series-forecasting-keras/blob/main/Transformer.py)
